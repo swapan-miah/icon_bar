@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .icon-bar {
+      width: 90px;
+      background-color: #555;
+    }
+    .icon-bar a {
+      display: block;
+      padding: 16px;
+      font-size: 30px;
+      text-decoration: none;
+      color: white;
+    }
+    .active {
+      background-color: #04aa6d;
+    }
+  </style>
+  <body>
+    <!-- onclick="currentImg(1)" -->
+    <div class="icon-bar">
+      <a class="icon active" ondblclick="currentImg(1)" href="#"
+        ><i class="fa fa-home"></i
+      ></a>
+      <a class="icon active" ondblclick="currentImg(2)" href="#"
+        ><i class="fa fa-search"></i
+      ></a>
+      <a class="icon active" ondblclick="currentImg(3)" href="#"
+        ><i class="fa fa-envelope"></i
+      ></a>
+      <a class="icon active" ondblclick="currentImg(4)" href="#"
+        ><i class="fa fa-globe"></i
+      ></a>
+      <a class="icon active" ondblclick="currentImg(5)" href="#"
+        ><i class="fa fa-trash"></i
+      ></a>
+    </div>
+
+    <script src="./test1.js"></script>
+  </body>
+</html>
